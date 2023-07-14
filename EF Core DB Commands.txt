@@ -1,0 +1,4 @@
+ dotnet ef --startup-project ../Task.PersonAddress.API  migrations add InitialMigration --context AspNetCoreTasksDbContext -o 'Data\Migrations'
+
+
+ dotnet ef --startup-project ../Task.PersonAddress.API database update --context AspNetCoreTasksDbContext
